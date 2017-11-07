@@ -1,0 +1,409 @@
+body {
+	background-color:#dee4f6;
+	color: #000;
+	font: 85%/140% Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	
+}
+a {
+	color: #69C;
+	text-decoration: none;	
+}
+a:hover {
+	color: #F60;
+}
+h1 {
+	font: 1.7em;
+	line-height: 110%;
+	color: #000;
+}
+h1, h2, h3 {
+	color: #000;
+}
+h3 {
+	border-top: solid 1px #eee;
+	padding: 20px 0;
+	margin: 20px 0 0;
+	font-size: 150%;
+}
+p {
+	margin: 0 0 20px;
+}
+/* atur html5 elemen ke block */
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section {
+	display: block;
+}
+/***STRUKTUR***/
+#wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#navbar{
+	background-color: BLACK;
+	height: 35px;
+	width: auto;
+	padding: 5px;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+#navbar form{
+	float:right;
+}
+
+
+
+/***TopNav***/
+
+.topnav ul li {
+	float:left;
+	padding:8px 20px;
+	border-right:1px solid #900;
+}
+
+.topnav a {
+	
+	text-decoration:none;
+	padding:8px 20px;
+	color: black;
+	font-weight:Bold;
+	margin-bottom:5px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+.topnav input{
+	float:right;
+	margin-bottom:5px;
+	font-weight:Bold;
+}
+
+.topnav form button{
+  height:27px;
+  width: 280px;
+  padding: right;
+}
+/***Akhir topnav***/
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+#header {
+	background-color: #f8f8f8;
+	padding: 5px;
+	overflow: hidden;
+	height: 130px;
+}
+
+#header img { width: 100%; height:130px;}
+
+#content {
+	width: 600px;
+	float: left;
+}
+/*Bagian Side Bar */
+
+#sidebar {
+	width: 300px;
+	float: right;
+}
+
+#sidebar h2{
+	text-align:center;
+	text-transform: uppercase;
+}
+
+#sidebar p{
+	line-height:20px;
+	color: #4f5455;
+}
+
+#sidebar ul li a{
+	color: #000000;
+	font-weight:bold;
+	text-decoration:none;
+	 
+}
+
+#sidebar img{
+  float:center;
+  width:260px;
+  height:260px;
+}
+
+/*Akhir Side Bar */
+
+.artikel img {
+	float:left;
+	margin-right:10px;
+	width:150px;
+	height:150px;
+}
+.artikel{
+
+	background:#ffffff;
+	margin-top: 10px;
+	margin-bottom:10px;
+	overflow:hidden;
+	text-decoration: none;
+}
+
+.artikel input {
+	width:330px;
+	height:30px;
+	margin: 5px;
+}
+
+.artikel b{
+	color:#CCF
+	background:#DDDDDDD;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+	margin-right:10px;
+}
+
+.artikel p{
+	margin:10px;
+}
+
+.artikel a{
+	display:block;
+	text-align:left;
+	color:#f636363;
+	margin-left:px;
+}
+
+/** Artikel Isi */
+.artikelisi{
+	background:#ffffff;
+	width: 550px;
+	padding:10px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	overflow:hidden;
+	text-decoration: none;
+}
+.artikelisi input {
+  width:330px;
+  height:30px;
+  margin: 5px;
+}
+.artikelisi textarea{
+  width:330px;
+  height:60px;
+  margin: 5px;
+}
+
+.artikelisi img b {
+	float:left;
+	margin-right:10px;
+	width:200px;
+	height:165px;
+}
+
+.artikelisi button {
+	float:right;
+	margin-right:10px;
+  height:27px;
+  width: 100px;
+}
+
+.artikelisi b{
+	color:#CCF
+	background:#DDDDDD;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+	margin-right:10px;
+}
+
+.artikelisi p{
+	margin:10px;
+}
+
+.artikelisi a{
+  color:#CCF
+	background:#DDDDDD;
+	display:block;
+	text-align:left;
+	color:#000;
+  text-decoration: none;
+}
+
+.artikelisi a{
+  color:#CCF
+	background:#DDDDDD;
+	display:block;
+	text-align:left;
+	color:#000;
+  text-decoration: none;
+}
+
+/* Artikel Product*/
+.artikelpro{
+
+	background:#ffffff;
+	width: 300px;
+	padding:10px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	overflow:hidden;
+	text-decoration: none;
+	position: left;
+
+}
+.artikelpro input {
+  width:330px;
+  height:30px;
+  margin: 5px;
+}
+.artikelpro textarea{
+  width:330px;
+  height:60px;
+  margin: 5px;
+}
+.artikelpro img {
+	float:left;
+	margin-right:10px;
+	width:300px;
+	height:300px;
+}
+
+.artikelpro button {
+	float:right;
+	margin-right:10px;
+  height:27px;
+  width: 100px;
+}
+
+.artikelpro b{
+	color:#CCF
+	background:#DDDDDD;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+	margin-right:10px;
+}
+
+.artikelpro p{
+	margin:10px;
+}
+.artikelpro a{
+  color:#CCF
+	background:#DDDDDD;
+	display:block;
+	text-align:left;
+	color:#000;
+  text-decoration: none;
+}
+.artikelpro a{
+  color:#CCF
+	background:#DDDDDD;
+	display:block;
+	text-align:left;
+	color:#000;
+  text-decoration: none;
+}
+
+/*Artikel Sidebar*/
+.artikelside{
+
+	background:#ffffff;
+  width: 550px;
+  padding:10px;
+  margin-top: 10px;
+	margin-bottom:10px;
+	overflow:hidden;
+  text-decoration: none;
+  position: left;
+
+}
+.artikelside input {
+  width:330px;
+  height:30px;
+  margin: 5px;
+}
+.artikelside textarea{
+  width:330px;
+  height:60px;
+  margin: 5px;
+}
+.artikelside img {
+	float:center;
+	margin-right:10px;
+	width:480px;
+	height:200px;
+}
+
+
+.artikelside b{
+	color:#CCF
+	background:#DDDDDD;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+	margin-right:10px;
+}
+
+.artikelside p{
+	margin:10px;
+}
+.artikelside a{
+  color:#CCF
+	background:#DDDDDD;
+	display:block;
+	text-align:left;
+	color:#000;
+  text-decoration: none;
+}
+.artikelside a{
+  color:#CCF
+	background:#DDDDDD;
+	display:block;
+	text-align:left;
+	color:#000;
+  text-decoration: none;
+}
+
+#footer {
+	margin:20px 0;
+	text-align:center;
+	background:#000;
+	padding:5px;
+	color:#F8F8FF;
+	clear: both;
+}
+
+ #header, #myTopnav, #content, #sidebar, #footer {padding:10px;}
+ 
+/* bisa dihapus ini */
+#content {
+	background: #f8f8f8;
+}
+#sidebar {
+	background: #f0efef;
+}
+#header, #content, #myTopnav", #sidebar {
+	margin-bottom: 5px;
+}
+#pagewrap,#myTopnav , #header, #content, #sidebar, #footer {
+	
+}
+
+.wrapper {
+	overflow: hidden;
+}
+	
+	
